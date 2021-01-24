@@ -1,3 +1,13 @@
+@font-face {
+    font-family: "SF UI Display Med"; src: 
+    url("//db.onlinewebfonts.com/t/2bfdad94aacefb9a0f70b25f18d5cbef.eot"); src: 
+    url("//db.onlinewebfonts.com/t/2bfdad94aacefb9a0f70b25f18d5cbef.eot?#iefix") format("embedded-opentype"), 
+    url("//db.onlinewebfonts.com/t/2bfdad94aacefb9a0f70b25f18d5cbef.woff2") format("woff2"), 
+    url("//db.onlinewebfonts.com/t/2bfdad94aacefb9a0f70b25f18d5cbef.woff") format("woff"), 
+    url("//db.onlinewebfonts.com/t/2bfdad94aacefb9a0f70b25f18d5cbef.ttf") format("truetype"), 
+    url("//db.onlinewebfonts.com/t/2bfdad94aacefb9a0f70b25f18d5cbef.svg#SF UI Display Med") format("svg"); 
+}
+
 html {
     font-size: 62.5%;
 }
@@ -219,16 +229,18 @@ form {
     height: 5.7rem;
 }
 
-input {
-    /* ИСПРАВИТЬ */
-    color: #616161;
+.button {
+    background-color: #fb973b; 
+    border: none;
+}
 
+.form-control {
+    color: #616161;
+    font-family: "SF UI Display Med";
     border: .5px solid #c4c4c4;
 }
 
-button {
-    background-color: #fb973b; 
-}
+
 
 @media (max-width: 1291px) {
     .title {

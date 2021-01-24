@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" media="all" href="styles/animate.css">
     <link rel="stylesheet" media="all" href="styles/icons.css">
+    <link href="//db.onlinewebfonts.com/c/2bfdad94aacefb9a0f70b25f18d5cbef?family=SF+UI+Display+Med" rel="stylesheet" type="text/css"/>
 </head>
 <body>
     <header class="header">
@@ -57,10 +58,11 @@
                         <div class="offer__text text">
                             Оставьте нам свой номер, и получите <span>бесплатный</span> рассчет специально для вас!
                         </div>
-                        <form>
-                            <input type="text" class="form__element" placeholder="7 (ххх) ххх хх хх">
-                            <button class="form__element">Отправить</button>
+                        <form id="myForm">
+                            <input id="phone3" class="form__element form-control" type="text">
+                            <input value="Отправить" type="submit" class="button form__element"></input>
                         </form>
+                        
 
                     </div>
                     <div class="offer__img">
@@ -220,10 +222,14 @@
     </main>
     <!-- jQuery-->
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <!-- Подключение jQuery плагина Masked Input -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery.maskedinput@1.4.1/src/jquery.maskedinput.min.js" type="text/javascript"></script>
     <!-- Подключение JS -->
     <script src="scripts/script.js"></script>
     <!-- min.js -->
     <script src="scripts/wow.min.js"></script>
     <script>new WOW().init();</script>
+    
 </body>
 </html>
