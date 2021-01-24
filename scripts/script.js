@@ -36,13 +36,6 @@ $(document).ready(function($) {
 
     $("#phone3").inputmask({removeMaskOnSubmit: true});
 
-    // const button = document.querySelector('.button');
-
-    // button.onclick = function() {
-    //     location.reload();
-    //     $("#phone3").unmask();
-    // }
-
      $("#myForm").submit(function() {
         $("#phone3").unmask();
        });
