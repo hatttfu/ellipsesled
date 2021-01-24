@@ -1,0 +1,119 @@
+body {
+    position: relative; 
+}
+
+.icon{
+    z-index: -1;
+    position: absolute;
+}
+
+.first {
+    right: .5rem;
+    top: 20rem;
+}
+
+.second {
+    left: .5rem;
+    top: 30rem;
+}
+
+.third {
+    left: 60rem;
+    top: 52rem;
+}
+
+.forth {
+    left: 30rem;
+    top: 2rem;
+}
+
+.fifth {
+    right: 61rem;
+    top: 9rem;
+}
+
+.sixth {
+    left: 11rem;
+    top: 70rem;
+}
+
+.seventh {
+    left: 71.9rem;
+    top: 76rem;
+}
+
+.eighth {
+    left: .3rem;
+    top: 100rem;
+}
+
+.ninth {
+    right: 33rem;
+    top: 96rem;
+}
+
+.tenth {
+    left: 26rem;
+    top: 144rem;
+}
+
+.eleventh {
+    right: 13rem;
+    top: 55rem;
+}
+
+.twelfth {
+    bottom: 29rem;
+    left: .1rem;
+}
+
+.thirteenth {
+    left: 33rem;
+    top: 96rem;
+}
+
+.fourteenth {
+    right: 48rem;
+    top: 130rem;
+}
+
+.fifteenth {
+    right: .1rem;
+    top: 91rem;
+}
+
+.fifteenth-1 {
+    left: 72rem;
+    bottom: 62rem;
+}
+
+.sixteenth {
+    right: .1rem;
+    bottom: 87rem;
+}
+
+.seventeenth {
+    right: 19.5rem;
+    bottom: 44.5rem;
+}
+
+.eighteenth {
+    left: 32rem;
+    bottom: 18rem;
+}
+
+.twenty-third{
+    bottom: 24.8rem;
+    right: 61.9rem;
+}
+
+.twenty-fourth{
+    right: .1rem;
+    bottom: 5rem;
+}
+
+@media (max-width: 1274px) {
+    .forth, .second, .tenth, .ninth, .third, .seventh {
+        display: none;
+    }
+}
