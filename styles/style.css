@@ -216,7 +216,7 @@ button {
     z-index: 100;
 }
 
-form {
+#form {
     display: flex;
 }
 
@@ -281,6 +281,20 @@ form {
     .container {
         padding: .5rem;
  
+    }
+}
+
+@media(max-width: 428px) {
+    .title {
+        font-size: 3rem;
+        line-height: 1.5em;
+    }
+    #form {
+        flex-direction: column;
+        align-items: center;
+    }
+    .button {
+        margin-top: 2rem;
     }
 }
 

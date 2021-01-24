@@ -28,16 +28,16 @@ $.fn.setCursorPosition = function(pos) {
 
 $(document).ready(function($) {
 
-    $("#phone3").click(function(){
+    $("#phone").click(function(){
         $(this).setCursorPosition(3);
       }).mask("7 (999) 999 99 99" , {
         placeholder: "7 (xxx) xxx xx xx"
     });
 
-    $("#phone3").inputmask({removeMaskOnSubmit: true});
+    // $("#phone").inputmask({removeMaskOnSubmit: true});
 
-     $("#myForm").submit(function() {
-        $("#phone3").unmask();
+     $("#form").submit(function() {
+        $("#phone").unmask();
        });
 
 });
